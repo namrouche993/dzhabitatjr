@@ -1,0 +1,69 @@
+1- Population(2000:2020) n'est pas dispo (je les ai estimé)
+2- Logements -> Fiche wilayas : Notifié (2020) !! et quand ça sera 2021, quesqu'on met ?!!
+3- Logements -> Fiche wilayas : 3éme tableau, pour les pourcentages de la 4éme et la 5eme ligne
+4- Equipement Publics -> Santé : somme des (acheves encours non lances ) differente de celle Nbre de projets !!!
+5- Equipement Publics -> infrastructure n'est pas dispo
+6- Promoteurs immobiliers -> Voir wilaya de 45-NAAMA
+
+
+
+             ############ (mais au final ,on as pas converti,c'est pas faux :D)  13 - !!!!!!!!!!!!! il faut jamais oublier la case : 
+             ################    Logements ->  Fiche wilayas -> 1er tableau où (En Cours - à l'arret) car on a converti "Dont à l'arret" au "à l'arret"
+
+
+
+7- Logements -> Sit Phy et Fiche wilayas :  (à confirmer et à ne pas oublier) :
+     -  Livraison et Prevision sont extrait du fichier DGL 2021 du feuille "Réalisations Lanc-Liv 1Tr 2021"  
+(Fait) -  Pour Location-Vente j'ai additioner LV CNEP avec LV
+(Fait) -  chez (LSP/LPA livraison Prevision) il existe un LSPOS apres la derniere wilaya 48-RELIZANE !!!!! c'est quoi
+
+     -  État d'Exécution du Programme sont extrait du fichier DGL 2021 du feuille "Situation physique au 31-03-21" 
+(Fait)     -  Pour Location-Vente j'ai additioner LV CNEP avec LV
+(Fait)     -  chez cetains Segments, il existe un LSPOS et NON AFFECTER apres la derniere wilaya 48-RELIZANE !!! c'est quoi ?
+
+
+8- (à ne pas oublier) : Logements -> Fiche wilayas : Aide à réhabilitation :
+        - Aide à réhabilitation est extrait du fichier DGL 2021 feuille : Aides Réhabilitation 30-3-2021
+ (Non Fait)  - au fichier brut y'a 4 colonnes de plus (Liste Non établie, AP,  Consommations, Taux)
+ (Fait) - (à ne pas oublier ) aux dernieres lignes y'a : tranférées au rural  1,300 - Reste à affecter 2,948 - Total 95,000   
+
+
+9- (à ne pas oublier) : Logements -> Fiche wilayas : Logements LPL en instance d’attribution au 2021-03-31   :
+       - 'Logements LPL en instance d’attribution'   est extrait du fichier DGL 2021, feuille :INSTANCES D'ATTRIBUTION 2021
+(Non Fait) -  Il y'a 3 OPGI à la wilaya d'ALGER, que je l'ai sommé
+(Fait) -  Pour Arrétée 31-03-2021, J'ai mis seulemebnts les 48wilayas, Pas encore pour les 10 nouvelles wilayas. 
+
+
+10-     Conistance_f =  Consistance_d  +  Notifie_activite  -  Annulee_activite .
+        Acheves_f    =  Acheve_d  +  Livre_activite
+        Encours_f    =  En_cours_d  +  Lances_activite  -  Livres_activite  - Annulee_activite
+        Nonlances_f  =  Non_lances_d  -  Lances_activite  +  Notifie_activite
+
+
+11- Logements -> Fiche wilayas -> Aide à la réhabiliation (à ne pas oublier ) :
+               - Fichier extrait du fichier "Bilan Année 06 2020" ou bilan organiser
+               - ajouter les 3derniers lignes(Seulement dans le cas de Toutes les wilayas) à Aide à la réhabilitation "tranféré au rural" "Reste à affecter""Annulées"
+
+
+12-Logement -> Fiche wilayas et Logements -> ALGER - LOCATION-VENTE - 2020 : y'a 2000logements non confirmée
+
+
+
+13-Logement -> Fiche wilayas -> Notifie 31-12-2020  Rural ou autre : 
+         - extrait du fichier Bilan DGL 4eme Trim. 
+ (Non Fait)         - esque sur la colonne Notifie2020, ces valeurs represent toute l'annee ou seulement le trimestre ???
+
+
+
+14-Logement -> Logements -> Location-Vente année 2020 et peut etre 2019 : 
+ (Fait)  - faut pas oublier de soustraire LV CNEP BANQUE DE LOCATION-VENTE car de2000au2018 sont seulement LV ( reste à confirmer )
+
+
+
+Verification du 23-juin-2021 pour le 2eme tableau Réalisation du trimestre séléctionnée : 
+ (Non Fait)  1- 13eme note pour la colonne Notifie2020 !!!
+
+
+
+
+#runApp(appDir ='C:/kalafat electron/electron-quick-start-win32-ia32/resources/app/',launch.browser=TRUE,port=8182)

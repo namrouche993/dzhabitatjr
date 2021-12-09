@@ -1,0 +1,70 @@
+---
+title: "Untitled"
+output: html_document
+params: 
+  data4: null
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, eval=TRUE, message=FALSE, warning=FALSE)
+```
+
+<script>
+function myFunction() {
+    var x = document.getElementById("myDIV");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+}
+</script>
+ 
+<button onclick="myFunction()">Show/ hide</button>
+
+<p id="pa1" style='font-size:30px;'>  5 </p> 
+
+<div id="myDIV">
+Some comments here.
+There are lots so it's nice.
+To be able to hide them.
+</div>
+
+## R Markdown
+
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r cars}
+library(V8)
+ct=v8()
+summary(cars)
+paste0("data params egale a : ",as.numeric(params$data4)+10000)
+as.numeric(ct$eval('2+88'))+500
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+
+## Zero slide
+
+<div>
+<select name="newSkill" id="newSkill" onchange="getFromDrop()">
+<option value="1">A skill</option>
+<option value="2">Another skill</option>
+<option value="3">Yet another skill</option>
+</select>
+
+<p id="idp" style="font-size:50px">1000</p>
+</div>
+
